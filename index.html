@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <!-- <input type="text" class="inputkamasla kuchbhi" id="inputToHistory"> -->
+        <input type="text" class="inputkamasla  " id="inputToShow">
+        <div class="row">
+            <button onclick="removeAll()" class="button" >AC</button>
+            <button onclick="btndelete()" class="button">DEL</button>
+            <button id="percentage" onclick="btnPercentage()" value="%" class="button" >%</button>
+            <button id="divide"   onclick="btnDivide()" value="/" class="button" >/</button>
+        </div>
+        <div class="row">
+            <button id="btnseven" onclick="btnSeven()" value="7" class="button" >7</button>
+            <button id="btneight" onclick="btnEight()" value="8" class="button" >8</button>
+            <button id="btnnine" onclick="btnNine()" value="9" class="button" >9</button>
+            <button id="plusss" onclick="btnPlus()" value="+" class="button" >+</button>
+        </div>
+        <div class="row">
+            <button id="btnfour" onclick="btnFour()" value="4" class="button" >4</button>
+            <button id="btnfive" onclick="btnfive()" value="5"  class="button"  >5</button>
+            <button id="btnsix" onclick="btnSix()" value="6" class="button" >6</button>
+            <button id="btnminus" onclick="btnMinus()" value="-" class="button" >-</button>
+        </div>
+        <div class="row">
+            <button id="btnone" onclick="btnOne()" value="1" class="button" >1</button>
+            <button id="btntwo" onclick="btnTwo()" value="2" class="button" >2</button>
+            <button id="btnthree" onclick="btnThree()" value="3" class="button" >3</button>
+            <button id="multiply" onclick="btnMultiply()" value="*" class="button" >*</button>
+        </div>
+        <div class="row">
+            <button id="btndoubleXero" onclick="btnDoubleZero()" value="00" class="button" >00</button>
+            <button id="btnzero" onclick="btnZero()" value="0" class="button" >0</button>
+            <button id="dotts" onclick="btnDot()" value="." class="button" >.</button>
+            <button id="btnequelto" onclick="abc(); btnEquelTo();final() " value="=" class="button" >=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
